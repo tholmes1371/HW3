@@ -4,6 +4,7 @@
     Author     : Tom Holmes
 --%>
 <%@page import="java.util.Date" %>
+<%@page import="java.text.SimpleDateFormat" %>"
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,13 +13,18 @@
         <title>JSP Salary Calculator Page</title>
     </head>
     <%
+        
         Date today = new Date();
         
-
-
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyy");
+        String ddMMyyyToday = dateFormat.format(today);
+        
+        
     %>
     <body>
         <h1>Hello World!</h1>
         <p> Today is: <%= today %> </p>
+        <p> Today is: <%= ddMMyyyToday %> </p>
+        <p> Test with VSC! </p>
     </body>
 </html>
