@@ -1,0 +1,51 @@
+body{
+    background-color: dodgerblue
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
+.center{
+    margin: auto;
+    width: 35%;
+    border: 0px;  
+}
+
+.button{
+
+    margin: auto;
+    width: 10%;
+}
+
+/*.results{
+   text-align: center;
+   border: 1px solid black;
+   margin: 0px;
+   border-spacing: 0px;
+
+}*/
+
+
+table{
+   text-align: center;
+   border-spacing: 0px;
+}
+
+
+td.first{
+    color: white;
+    background-color: dodgerblue;
+    padding: 5px;
+}
+
+td.second{
+   color: black;
+   background-color: white; 
+   padding: 10px;
+   border: 1px solid black;
+   margin: 0px;
+   border-spacing: 0px;
+   
+    
+}
